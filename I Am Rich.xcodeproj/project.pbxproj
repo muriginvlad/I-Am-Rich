@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863E2C7F24E54E5E00C73878 /* Screenshots.png in Resources */ = {isa = PBXBuildFile; fileRef = 863E2C7D24E54E5E00C73878 /* Screenshots.png */; };
+		863E2C8024E54E5E00C73878 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 863E2C7E24E54E5E00C73878 /* README.md */; };
 		86A32C3E22C248250078DBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A32C3D22C248250078DBEE /* AppDelegate.swift */; };
 		86A32C4022C248250078DBEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A32C3F22C248250078DBEE /* ViewController.swift */; };
 		86A32C4322C248250078DBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A32C4122C248250078DBEE /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		863E2C7D24E54E5E00C73878 /* Screenshots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshots.png; sourceTree = "<group>"; };
+		863E2C7E24E54E5E00C73878 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		86A32C3A22C248250078DBEE /* I Am Rich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Am Rich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A32C3D22C248250078DBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86A32C3F22C248250078DBEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +39,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		863E2C7C24E54E5E00C73878 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				863E2C7D24E54E5E00C73878 /* Screenshots.png */,
+			);
+			path = Screenshots;
+			sourceTree = SOURCE_ROOT;
+		};
 		86A32C3122C248250078DBEE = {
 			isa = PBXGroup;
 			children = (
+				863E2C7E24E54E5E00C73878 /* README.md */,
+				863E2C7C24E54E5E00C73878 /* Screenshots */,
 				86A32C3C22C248250078DBEE /* I Am Rich */,
 				86A32C3B22C248250078DBEE /* Products */,
 			);
@@ -124,7 +138,9 @@
 			files = (
 				86A32C4822C248270078DBEE /* LaunchScreen.storyboard in Resources */,
 				86A32C4522C248270078DBEE /* Assets.xcassets in Resources */,
+				863E2C8024E54E5E00C73878 /* README.md in Resources */,
 				86A32C4322C248250078DBEE /* Main.storyboard in Resources */,
+				863E2C7F24E54E5E00C73878 /* Screenshots.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
